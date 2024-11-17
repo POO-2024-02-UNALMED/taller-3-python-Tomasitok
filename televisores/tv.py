@@ -7,6 +7,8 @@ class TV:
         self._canal = 1
         self._volumen = 1
         self._precio = 500
+        
+        TV._numTV += 1
 
     @classmethod
     def setNumTV(cls, numTV):
